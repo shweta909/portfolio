@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shweta | Portfolio</title>
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fa;
+    color: #333;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.skills .skill-btn {
+    display: inline-block;
+    background: #e5e7eb;
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hi, I'm Shweta 👋</h1>
+    <p>Web & Software Developer</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn">Contact Me</a>
+</header>
+
+<section>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate developer focused on building practical web applications 
+            and automation tools that solve real-world problems. 
+            I enjoy learning new technologies and improving my development skills.
+        </p>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <span class="skill-btn">HTML</span>
+        <span class="skill-btn">CSS</span>
+        <span class="skill-btn">JavaScript</span>
+        <span class="skill-btn">ASP.NET</span>
+        <span class="skill-btn">Python</span>
+        <span class="skill-btn">Java</span>
+        <span class="skill-btn">SQL</span>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>🩸 Blood Donation Management System</h3>
+            <p>
+                A full-stack MERN application (MongoDB, Express, React, Node) 
+                designed to connect blood donors and receivers efficiently.
+            </p>
+            <p>
+                The system helps make blood easily available during emergencies 
+                by simplifying donor registration, request handling, and search filtering.
+            </p>
+            <p><strong>Tech Used:</strong> MongoDB · Express · React · Node</p>
+        </div>
+
+        <div class="card">
+            <h3>📧 Automated GIF Emailer</h3>
+            <p>
+                A Java-based automation tool built using Maven that sends bulk 
+                customized GIF emails to customers.
+            </p>
+            <p>
+                Designed to improve engagement by automating marketing campaigns 
+                and sending visually attractive content to large audiences.
+            </p>
+            <p><strong>Tech Used:</strong> Java · Maven · SMTP · Email Automation</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email: <strong>shwetadhoble126@gmail.com</strong></p>
+        <a href="mailto:shwetadhoble126@gmail.com" class="btn">Send Email</a>
+        <a href="https://github.com/shweta909" class="btn" target="_blank">GitHub Profile</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Shweta | Portfolio</p>
+</footer>
+
+</body>
+      </html>
